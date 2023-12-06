@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+:root {
+    --marrom-claro: #A45A49;
+    --marrom-um-pouco-escuro: #1F1517;
+    --marrom-mais-escuro: #181012;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-logo: 'Teko', sans-serif;
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-subtitulo: 'Inter', sans-serif;
+    --fonte-titulo-status: 'Epilogue', sans-serif;
+}
