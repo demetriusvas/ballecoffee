@@ -54,6 +54,11 @@
     font-size: 1rem;
 }
 
+.header a{
+    font-family: var(--fonte-subtitulo);
+    font-weight: 600;
+}
+
 .ativo{
     font-weight: 600;
     color: var(--branco);
