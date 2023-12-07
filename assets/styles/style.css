@@ -4,7 +4,8 @@
     --marrom-claro: #A45A49;
     --marrom-um-pouco-escuro: #1F1517;
     --marrom-mais-escuro: #181012;
-    --branco: #FFFFFF;
+    --marrom-claro-link: rgba(255, 242, 231, 0.50);
+    --branco: #FFF2E7;
     --preto: #000000;
 
     --fonte-logo: 'Teko', sans-serif;
@@ -25,4 +26,40 @@
         -500 
     */
 
+}
+
+body{
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--marrom-um-pouco-escuro);
+    color: var(--branco);
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header > span{
+    font-family: var(--fonte-logo);
+    font-size: 2rem;
+}
+
+.header > nav ul {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--fonte-subtitulo);
+    font-weight: 500;
+    color: var(--marrom-claro-link);
+    font-size: 1rem;
+}
+
+.ativo{
+    font-weight: 600;
+    color: var(--branco);
 }
