@@ -2,6 +2,7 @@
 
 :root {
     --marrom-claro: #A45A49;
+    --marrom-escuro: #241a1c;
     --marrom-um-pouco-escuro: #1F1517;
     --marrom-mais-escuro: #181012;
     --marrom-claro-link: rgba(255, 242, 231, 0.50);
@@ -138,6 +139,10 @@
     margin-right: auto;
 }
 
+.receitas_header{
+    padding-bottom: 32px;
+}
+
 .receitas_titulo{
     font-family: var(--fonte-titulo);
     font-size: 2rem;
@@ -153,7 +158,70 @@
 }
 
 /*  -------------- CARDS -------------- */
+.receitas_container_cards{
+    column-count: 2;
+}
 
+.receitas_card{
+    background-color: var(--marrom-escuro);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.receitas_card-status-alta{
+    color: #E7A80E;
+    font-family: var(--fonte-titulo-status);
+    font-size: 0.875rem;
+}
+
+.receitas_card-status{
+    color: var(--marrom-claro);
+    font-family: var(--fonte-titulo-status);
+    font-size: 0.875rem;
+}
+
+.receitas_card-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.receitas_card-tipo{
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+    font-size: 1.25rem;
+}
+
+.receitas_card-avaliacao{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1rem;
+    color: #756A67;
+}
+
+.receitas_card-descricao{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1rem;
+    color: #C7BAB3;
+    padding: 24px 0;
+}
+
+.receitas_card-pessoa{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1rem;
+    color: #C7BAB3;
+}
+
+.receitas_card-avatar{
+    width: 24px;
+    border-radius: 50%;
+}
+
+.receitas_card-avatar_nome{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
 
 @media all and (max-width: 480px) { }
