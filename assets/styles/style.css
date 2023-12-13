@@ -165,7 +165,7 @@
 .receitas_card{
     background-color: var(--marrom-escuro);
     border-radius: 8px;
-    padding: 24px;
+    padding: 2rem;
     margin-bottom: 32px;
 }
 
