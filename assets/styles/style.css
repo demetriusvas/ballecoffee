@@ -232,16 +232,59 @@
 }
 
 /*  -------------- RECEITA - MODO DE PREPARO E INGREDIENTES -------------- */
-.receita_preparo_ingredientes{
-    background-color: var(--marrom-um-pouco-escuro);
-}
 
-.receita_container{
+.hero_container{
     display: flex;
     flex-direction: row;
-    padding: 24px;
+    padding: 48px 160px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.hero_meio-receita{
+    width: 200px;
+}
+
+.hero_card{
+    background-color: var(--marrom-escuro);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 32px;
+}
+
+.hero_header-alta{
+    color: #E7A80E;
+    font-family: var(--fonte-titulo-status);
+    font-size: 0.875rem;
+}
+
+.hero_header-titulo{
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.hero_header-descricao{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.125rem;
+    color: #C7BAB3;
+}
+
+.hero_header-avatar-nome{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    align-items: center;
+}
+
+.hero_header-avatar{
+    width: 24px;
+    border-radius: 50%;
+}
+
+.receita_preparo_ingredientes{
+    background-color: var(--marrom-um-pouco-escuro);
 }
 
 /*  -------------- FOOTER -------------- */
