@@ -2,9 +2,9 @@
 
 <!-- Teste o site online - [Página de Conteúdo](https://demetriusvas.github.io/Pagina-de-Conteudo/) -->
 
-<img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/ballecoffee/blob/main/BalleCoffee%20-%20preview(1).png">
+<img width="800" alt="Imagem do site" src="https://github.com/demetriusvas/ballecoffee/blob/main/BalleCoffee%20-%20preview(1).png">
 
-<img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/ballecoffee/blob/main/BalleCoffee%20-%20preview(2).png">
+<img width="800" alt="Imagem do site" src="https://github.com/demetriusvas/ballecoffee/blob/main/BalleCoffee%20-%20preview(2).png">
 
 <!-- <img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/Pagina-de-Conteudo/blob/main/assets/screenshot/Screenshot%20do%20site%20-%203.png"> -->
 
