@@ -250,6 +250,7 @@
     border-radius: 8px;
     padding: 2rem;
     margin-bottom: 32px;
+    width: 500px;
 }
 
 .hero_header-alta{
@@ -269,19 +270,76 @@
     font-family: var(--fonte-subtitulo);
     font-size: 1.125rem;
     color: #C7BAB3;
+    margin-bottom: 2rem;
 }
 
 .hero_header-avatar-nome{
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
     align-items: center;
+}
+
+.hero_header-nome-membro{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-subtitulo);
 }
 
 .hero_header-avatar{
     width: 24px;
     border-radius: 50%;
 }
+
+.hero_header-nome{
+    color: #C7BAB3;
+    font-weight: 600;
+}
+
+.hero_header-membro{
+    color: #756A67;
+    font-weight: 500;
+}
+
+.hero_card-detalhes{
+    color: #A45A49;
+    font-family: var(--fonte-titulo-status);
+    font-size: 0.875rem;
+}
+
+.hero_card-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.hero_card-item-titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 1.125rem;
+}
+
+.hero_card-item-avaliacao{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1rem;
+    color: #756A67;
+}
+
+.hero_card-item-avaliacao-linhas{
+    display: flex;
+}
+
+.hero_card-item-avaliacao-linha-ativa{
+    border: 3px solid #A45A49;
+    width: 6rem;
+    border-radius: 4px;
+}
+
+.hero_card-item-avaliacao-linha-inativa{
+    border: 3px solid #23181A;
+    width: 6rem;
+    border-radius: 4px;
+}
+
+
 
 .receita_preparo_ingredientes{
     background-color: var(--marrom-um-pouco-escuro);
