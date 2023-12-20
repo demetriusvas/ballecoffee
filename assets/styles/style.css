@@ -348,7 +348,7 @@
 .receita_container{
     display: flex;
     flex-direction: row;
-    padding: 48px 160px;
+    padding: 70px 160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -359,7 +359,7 @@
     padding: 2rem;
     margin-bottom: 32px;
     margin-right: 32px;
-    width: 715px;
+    width: 800px;
     
 }
 
@@ -368,7 +368,7 @@
     border-radius: 8px;
     padding: 2rem;
     margin-bottom: 32px;
-    width: 276px;
+    width: 400px;
 }
 
 .receita_modo_de_preparo-titulo{
@@ -394,13 +394,41 @@
     margin-bottom: 2rem;
 }
 
-.receita_modo_de_preparo-item, .receita_ingredientes-item{
-    color: #C7BAB3;
-    font-family: var(--fonte-subtitulo);
-    font-size: 1.125rem;
+.receita_modo_de_preparo_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 1.5rem;
 }
 
+.receita_modo_de_preparo-item-numero{
+    border-radius: 5px;
+    background: #A45A49;
+    padding: 8px; 
+    width: 16px;
+    text-align: center;
+    color: #C7BAB3;
+    font-weight: 800;
+    font-family: var(--fonte-subtitulo);
+}
+
+.receita_modo_de_preparo-item-texto, .receita_ingredientes-item-texto{
+    color: #C7BAB3;
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.125rem;
+}
+
+.receita_ingredientes-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.receita_ingredientes-item-quantidade{
+    color: #A45A49;
+    font-family: var(--fonte-subtitulo);
+    font-size: 0.875rem;
+}
 
 
 
